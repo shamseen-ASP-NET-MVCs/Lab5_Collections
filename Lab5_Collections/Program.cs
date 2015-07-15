@@ -41,6 +41,8 @@ namespace Lab5_Collections
                 Console.Write(i + 1 + "   ");
                 people[i].printFullName();
             }
+
+            inFile.Close();
         }
 
         static void makeDictOfProducts()
@@ -69,7 +71,7 @@ namespace Lab5_Collections
                 item.Value.printEverything();
             }
 
-
+            inFile.Close();
         }
 
     }
